@@ -1,0 +1,114 @@
+{ "products" :
+
+[
+    {
+        "img" : "/assets/images/all.jpeg",
+        "productName" : "Strawberry Cupcakes",
+        "productCost" : "17.99",
+        "productDescription" : "Set of 4 Strawberry CupCakes for $17.99",
+        "price" : "upto20",
+        "type" : "cupcake",
+        "_id" : 1
+    },
+    {
+        "img" : "/assets/images/bday.jpeg",
+        "productName" : "Birthday Cake",
+        "productCost" : "79.99",
+        "productDescription" : "Personalized cake for $79.99",
+        "price" : "price20to50",
+        "type" : "cake",
+        "_id" : 2
+    },
+    {
+        "img" : "/assets/images/weddingP.jpeg",
+        "productName" : "Wedding Cake",
+        "productCost" : "179.99",
+        "productDescription" : "Personalized cake for $179.99",
+        "price" : "price100to200",
+        "type" : "cake",
+        "_id" : 3
+    },
+    {
+        "img" : "/assets/images/smash.png",
+        "productName" : "Smash the Cake",
+        "productCost" : "29.99",
+        "productDescription" : "Personalized cake for $29.99",
+        "price" : "price20to50",
+        "type" : "cake",
+        "_id" : 4
+    },
+    {
+        "img" : "/assets/images/cupcakeP.jpeg",
+        "productName" : "Vanilla CupCakes",
+        "productCost" : "14.99",
+        "productDescription" : "Set of 4 Vanilla CupCakes for $14.99",
+        "price" : "upto20",
+        "type" : "cupcake",
+        "_id" : 5
+    },
+    {
+        "img" : "/assets/images/bday1.png",
+        "productName" : "Birthday Cake",
+        "productCost" : "139.99",
+        "productDescription" : "Personalized cake for $139.99",
+        "price" : "price100to200",
+        "type" : "cake",
+        "_id" : 6
+    },
+    {
+        "img" : "/assets/images/weddingPr.jpeg",
+        "productName" : "Wedding Cake",
+        "productCost" : "199.99",
+        "productDescription" : "Personalized cake for $199.99",
+        "price" : "price100to200",
+        "type" : "cake",
+        "_id" : 7
+    },
+    {
+        "img" : "/assets/images/sc.png",
+        "productName" : "Smash the Cake",
+        "productCost" : "24.99",
+        "productDescription" : "Personalized cake for $24.99",
+        "price" : "price20to50",
+        "type" : "cake",
+        "_id" : 8
+    },
+    {
+        "img" : "/assets/images/cookies2.jpeg",
+        "productName" : "Cookies",
+        "productCost" : "11.99",
+        "productDescription" : "Set of 6 chocolate chip cookies for $11.99",
+        "price" : "upto20",
+        "type" : "cookies",
+        "_id" : 9
+    },
+    {
+        "img" : "/assets/images/bday2.png",
+        "productName" : "Birthday Cake",
+        "productCost" : "89.99",
+        "productDescription" : "Personalized cake for $89.99",
+        "price" : "price50to100",
+        "type" : "cake",
+        "_id" : 10
+    },
+    {
+        "img" : "/assets/images/cookie.jpeg",
+        "productName" : "Cookies",
+        "productCost" : "11.99",
+        "productDescription" : "Set of 6 seasonal cookies for $11.99",
+        "price" : "upto20",
+        "type" : "cookies",
+        "_id" : 11
+    },
+    {
+        "img" : "/assets/images/bday3.png",
+        "productName" : "Birthday Cake",
+        "productCost" : "59.99",
+        "productDescription" : "Personalized cake for $59.99",
+        "price" : "price50to100",
+        "type" : "cake",
+        "_id" : 12
+    }
+
+]
+}

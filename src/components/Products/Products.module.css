@@ -1,0 +1,16 @@
+.Content {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .Main {
+    flex: 3 60rem;
+    }
+    
+    .Sidebar {
+    flex: 1 20rem;
+    padding-top: 2.8%;
+    }

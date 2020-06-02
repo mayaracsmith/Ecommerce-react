@@ -1,0 +1,52 @@
+.Cart {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex: wrap;
+}
+
+.CartHeader {
+    border-bottom: .1rem #c0c0c0 solid;
+}
+
+.CartItems {
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+.CartItems img {
+    width: 5rem;
+}
+
+.CartItems li {
+    display: flex;
+}
+
+.CartItems li div {
+    padding: .5rem;
+}
+
+.CartItems li:last-child {
+    flex: 1;
+}
+
+.Right {
+    text-align: right;
+}
+
+.Total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.Total > div{
+    font-size: 1.7rem;
+}
+
+.Total > div, 
+.Total > button {
+    flex: 1;
+}

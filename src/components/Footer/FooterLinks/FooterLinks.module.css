@@ -1,0 +1,25 @@
+.Links {
+    background: #f2f2f2;
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 3%;
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+  
+.LinksInner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    text-align: justify;
+    text-decoration: none;
+}
+  
+.Links li {
+    line-height: 2.8;
+    list-style: none;
+    text-decoration: none;
+}
