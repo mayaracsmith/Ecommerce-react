@@ -38,7 +38,7 @@ export default class Cart extends Component {
                     <div className={classes.Cart}>
                     <div className={classes.Total}>
                         <div> Total: {" "}
-                            ${cartItems.reduce((a,c) => a + (c.productCost*c.count), 0)}
+                            ${cartItems.reduce((a,c) => a + (c.productCost*c.count), 0).toFixed(2)}
                             </div>
                             <button>Proceed</button>
                     </div>

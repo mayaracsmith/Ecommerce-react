@@ -46,3 +46,30 @@ button:hover {
     background-color: grey;
     color: white;
 }
+
+@media(max-width: 500px){
+    .Products {
+        justify-content: left;
+        align-items: left;
+    }
+
+    .Products li {
+        flex: 0 1 5rem;
+        height: 20rem;
+        padding: 1rem;
+        margin-bottom: 6rem;
+    }
+
+    .Product img {
+        max-width: 18rem;
+        max-height: 18rem;
+    }
+
+    .ProductPrice button {
+        font-size: 1rem;
+    }
+
+    .ProductPrice div {
+        font-size: 1.5rem;
+    }
+}

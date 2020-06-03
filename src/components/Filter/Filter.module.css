@@ -9,3 +9,15 @@
 .Filter div {
     flex: 1;
 }
+
+@media(max-width: 500px){
+    .Filter {
+        justify-content: space-evenly;
+        padding-top: 5%;
+        font-size: 1rem;
+    }
+
+    .Border {
+        border: 0.1rem #c0c0c0 solid;
+    }
+}

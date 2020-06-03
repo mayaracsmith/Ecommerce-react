@@ -76,3 +76,17 @@
     z-index: 2;
     display: none;
 } */
+
+@media(max-width: 500px){
+.MainNav h1 {
+    font-size: 2rem;
+}
+
+.Logo {
+    width: 80px;
+}
+
+.Hide {
+    display: none;
+}
+    }

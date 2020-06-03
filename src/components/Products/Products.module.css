@@ -14,3 +14,13 @@
     flex: 1 20rem;
     padding-top: 2.8%;
     }
+
+@media(max-width: 500px){
+    .Main {
+    flex: 1 30rem;
+    }
+        
+    .Sidebar {
+    flex: 1 10rem;
+    }
+}

@@ -1,5 +1,4 @@
 import React from 'react';
-// import classes from './Slider.module.css';
 
  const slider = () => (
       <div className="row mt-5">

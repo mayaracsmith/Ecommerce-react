@@ -2,6 +2,7 @@ import React from 'react';
 import classes from './Navigation.module.css';
 import cakeLogo from '../../assets/img/logo.jpeg';
 import { Link } from 'react-router-dom';
+import Popover from '../popover/Popover'
 
 
 const navigation = () => (
@@ -10,10 +11,10 @@ const navigation = () => (
                 <Link to="/"><h1>Caldeira's Cakes</h1></Link>
                 
             <ul className={classes.MainMenu}>
-                <li><Link exact={true} to="/products">Shop All</Link></li>
-                <li><Link exact={true} to="/">Birthday</Link></li>
-                <li><Link exact={true} to="/">Wedding</Link></li>
-                <li><Link exact={true} to="/">Cookies</Link></li>
+                <li className={classes.Hide}><Link exact={true} to="/products">Shop All</Link></li>
+                <li className={classes.Hide}><Link exact={true} to="/">Birthday</Link></li>
+                <li className={classes.Hide}><Link exact={true} to="/">Wedding</Link></li>
+                <li className={classes.Hide}><Link exact={true} to="/">Cookies</Link></li>
               </ul>
 
               <ul className={classes.RightMenu}>
@@ -27,7 +28,7 @@ const navigation = () => (
                 </li>
                 <li>
                   <a href="/">
-                    <i className="fas fa-shopping-cart"></i>
+                  <i className="fas fa-shopping-cart"></i>
                   </a>
                 </li>
               </ul>

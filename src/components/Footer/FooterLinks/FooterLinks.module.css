@@ -23,3 +23,13 @@
     list-style: none;
     text-decoration: none;
 }
+
+@media(max-width: 500px){
+.LinksInner {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    text-align: justify;
+}
+}

@@ -48,3 +48,19 @@ button {
     background: #333;
     color: #fff;
 }
+
+@media(max-width: 500px){
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1rem;
+        padding-bottom: 4%;
+    }
+    input, textarea {
+        border: 0.1rem #c0c0c0 solid;
+    }
+    button {
+        font-size: 1rem;
+    }
+}

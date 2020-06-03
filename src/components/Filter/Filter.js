@@ -11,7 +11,7 @@ export default class Filter extends Component {
                 </div>
                 <div className={classes.FilterSort}>
                     Filter Price {""}
-                    <select value={this.props.price} onChange={this.props.filterPrice}>
+                    <select className={classes.Border} value={this.props.price} onChange={this.props.filterPrice}>
                         <option value="">Show All</option>
                         <option value="upto20">Up to $20</option>
                         <option value="price20to50">$20 to $50</option>
@@ -21,7 +21,7 @@ export default class Filter extends Component {
                 </div>
                 <div className={classes.FilterType}>
                     Filter Type {""}
-                    <select value={this.props.type} onChange={this.props.filterType}>
+                    <select className={classes.Border} value={this.props.type} onChange={this.props.filterType}>
                         <option value="">Show All</option>
                         <option value="caake">Cakes</option>
                         <option value="cupcake">Cupcakes</option>
