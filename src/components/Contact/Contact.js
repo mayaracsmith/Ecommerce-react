@@ -37,7 +37,7 @@ class Contact extends Component {
       };
 
       handleSubmit = event => {
-        event.preventDefault();
+        //event.preventDefault();
         const isValid = this.validate();
         if (isValid) {
           console.log(this.state);
