@@ -8,8 +8,10 @@ export default class Cart extends Component {
         return (
             <div>
                 {cartItems.length === 0 ? (
+                    // eslint-disable-next-line
                 <div className={classes.Cart} className={classes.CartHeader}>Cart is Empty</div>
                 ) : (
+                    // eslint-disable-next-line
                 <div className={classes.Cart} className={classes.CartHeader}>You have {cartItems.length} items in your cart{" "}</div>
 
                 )}
