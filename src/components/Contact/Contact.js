@@ -55,7 +55,7 @@ class Contact extends Component {
             <p>Please fill out the form below to contact us</p>
             </div>
 
-            <form onSubmit={this.handleSubmit}>
+            <form action="POST" dataNetlify="true" onSubmit={this.handleSubmit}>
 
             <div className={classes.Spacing}><label for="name">Name</label>
             <input type="text" name="name" id="name" value={this.state.name} onChange={this.handleChange} /> <br />

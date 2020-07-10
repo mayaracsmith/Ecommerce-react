@@ -2,7 +2,6 @@ import React from 'react';
 import classes from './Navigation.module.css';
 import cakeLogo from '../../assets/img/logo.jpeg';
 import { Link } from 'react-router-dom';
-import Popover from '../popover/Popover'
 
 
 const navigation = () => (

@@ -20,7 +20,7 @@ const productsGrid = () => (
                     Personalized birthday cakes available. Make their birthday this year extra special with a gift 
                     made of their favorite flavor.
                 </p>
-                <Link to="/" className={classes.Link}>Shop Birthday Cakes <i className="fas fa-chevron-right"></i></Link>
+                <Link to="/products" className={classes.Link}>Shop Birthday Cakes <i className="fas fa-chevron-right"></i></Link>
 
     </div>
     <div className="col-6 col-sm col-lg-3">
@@ -29,7 +29,7 @@ const productsGrid = () => (
                 <p>
                     Our wedding cakes include traditional southern pound cake recipes and use the finest ingredients.
                 </p>
-                <Link to="/" className={classes.Link}>Shop Wedding Cakes <i className="fas fa-chevron-right"></i></Link>
+                <Link to="/products" className={classes.Link}>Shop Wedding Cakes <i className="fas fa-chevron-right"></i></Link>
 
     </div>
     <div className="col-6 col-sm col-lg-3">
@@ -38,7 +38,7 @@ const productsGrid = () => (
                 <p>
                     Our Cookies are baked fresh daily with premium ingredients and a little bit of love.
                 </p>
-                <Link to="/" className={classes.Link}>Shop Cookies <i className="fas fa-chevron-right"></i></Link>
+                <Link to="/products" className={classes.Link}>Shop Cookies <i className="fas fa-chevron-right"></i></Link>
 
     </div>
   </div>
